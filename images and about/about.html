@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            text-align: center;
+            box-shadow: 0 4px 8px 0 #CD5C5C;
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #f2bebe;
+            color: #8c3030;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: #CD5C5C;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #8c3030;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="about-section">
+        <marquee width="100%" behavior="alternate" direction="right">
+            <h1>About Maths Quiz Game</h1>
+        </marquee>
+        <h4 align="justify">Math quiz game is a game which is useful for practice. In this game, there are arithmetic operations such as
+        Addition, Subtraction, Multiplication and also Division. This game will be helpful for 2nd to 5th class students for
+        practice of calculation easy and fast. <br>
+        As we all know that for most of the students math subject is difficult. So, this game is created for children to give the right content in this degital world 
+        related to their studys and encourage them towards Mathametical calculation.
+        It is the best way to make children's calculation strong by doing the practice of Addition, Subtraction, Multiplication and
+        Division as a Quiz Game. <br>
+        There are two sections in this game related to the particular operation: <br>
+        1. Quiz Section. <br>
+        2. Practice (Do Youself) Section.
+ <br>
+        </h4>
+    </div>
+    <h2 style="text-align:center">About The Developer..</h2>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+
+                <div class="container">
+                    <h2></h2>
+                    <p class="title"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="card">
+                <img src="../images and about/priya kumari.jpeg" alt="Mike" style="width: 75px;">
+                <div class="container">
+                    <h2>Priya Kumari</h2>
+                    <p class="title">FRONT END WEB DEVELOPER || IOT STUDENT</p>
+                    <p>An obedient, Hard working and self-motivated student with problem solving and communicational
+                        skills with
+                        detailed-centered thinking. Always curious to learn new skills and gain knowledge.</p>
+                    <p>priya.114111@gmail.com</p>
+                    <p><button class="button">linkedin.com/in/priya- kumari-470056222</button></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
